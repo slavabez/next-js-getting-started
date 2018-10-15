@@ -5,12 +5,13 @@
   "repository": "git@github.com:slavabez/next-js-getting-started.git",
   "author": "Slava Bezgachev <bezgachev@gmail.com>",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start"
   },
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.4",
     "next": "^7.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
