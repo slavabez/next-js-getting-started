@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import MyLayout from "../components/MyLayout";
 
 const About = () => {
   return (
-    <div>
+    <MyLayout>
       <p>About</p>
-    </div>
+    </MyLayout>
   );
 };
 

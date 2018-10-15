@@ -1,14 +1,11 @@
 import React from "react";
-import Link from 'next/link'
+import MyLayout from "../components/MyLayout";
 
 const Index = () => {
   return (
-    <div>
-      <Link href={{ pathname: '/about', query: { name: 'Zeit' } }}>
-        <button>About Page</button>
-      </Link>
+    <MyLayout>
       <p>Hello Next.js</p>
-    </div>
+    </MyLayout>
   );
 };
 
